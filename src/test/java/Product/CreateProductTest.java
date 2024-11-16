@@ -22,6 +22,7 @@ public class CreateProductTest extends BaseClass
     	   ExcelFileUtility eUtil= new ExcelFileUtility();
     	   String ProductName = eUtil.getDataFromExcel("Products", 1, 0);    	   
     	   
+    	   System.out.println(ProductName);
     	   //Click on product tab
     	   HomePage hp = new HomePage(driver);
     	   hp.clickOnProduct();

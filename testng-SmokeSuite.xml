@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="SmokeTest">
     <classes>
-      
+       <class name="Orgnization.CreateoOganizationTest"/>
        <class name="Product.CreateProductTest"/>
     </classes>
   </test> <!-- Test -->
