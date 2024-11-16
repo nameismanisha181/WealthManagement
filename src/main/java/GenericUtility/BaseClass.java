@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -21,7 +22,7 @@ public class BaseClass {
 	@BeforeClass
 	public void LaunchBrowser() throws IOException
 	{
-		driver=new EdgeDriver();
+		driver=new FirefoxDriver();
 		wUtil.maximizeWindow(driver);
 		wUtil.implicitlyWait(driver);		
 		String URL = prop.getPropertyValue("url");
