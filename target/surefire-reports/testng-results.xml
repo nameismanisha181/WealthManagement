@@ -2,50 +2,50 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="37800" started-at="2024-11-16T08:43:18 IST" finished-at="2024-11-16T08:43:56 IST">
+  <suite name="Suite" duration-ms="38036" started-at="2024-11-16T09:11:25 IST" finished-at="2024-11-16T09:12:03 IST">
     <groups>
     </groups>
-    <test name="SmokeTest" duration-ms="37800" started-at="2024-11-16T08:43:18 IST" finished-at="2024-11-16T08:43:56 IST">
+    <test name="SmokeTest" duration-ms="38036" started-at="2024-11-16T09:11:25 IST" finished-at="2024-11-16T09:12:03 IST">
       <class name="Product.CreateProductTest">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:Product.CreateProductTest@27808f31]" name="LaunchBrowser" is-config="true" duration-ms="1882" started-at="2024-11-16T08:43:43 IST" finished-at="2024-11-16T08:43:45 IST">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:Product.CreateProductTest@27808f31]" name="LaunchBrowser" is-config="true" duration-ms="3177" started-at="2024-11-16T09:11:48 IST" finished-at="2024-11-16T09:11:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="LoginToApp()[pri:0, instance:Product.CreateProductTest@27808f31]" name="LoginToApp" is-config="true" duration-ms="1905" started-at="2024-11-16T08:43:45 IST" finished-at="2024-11-16T08:43:47 IST">
+        <test-method status="PASS" signature="LoginToApp()[pri:0, instance:Product.CreateProductTest@27808f31]" name="LoginToApp" is-config="true" duration-ms="2417" started-at="2024-11-16T09:11:51 IST" finished-at="2024-11-16T09:11:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginToApp -->
-        <test-method status="PASS" signature="CreateProduct()[pri:0, instance:Product.CreateProductTest@27808f31]" name="CreateProduct" duration-ms="7055" started-at="2024-11-16T08:43:47 IST" finished-at="2024-11-16T08:43:54 IST">
+        <test-method status="PASS" signature="CreateProduct()[pri:0, instance:Product.CreateProductTest@27808f31]" name="CreateProduct" duration-ms="7176" started-at="2024-11-16T09:11:53 IST" finished-at="2024-11-16T09:12:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateProduct -->
-        <test-method status="PASS" signature="LogoutFromApp()[pri:0, instance:Product.CreateProductTest@27808f31]" name="LogoutFromApp" is-config="true" duration-ms="1153" started-at="2024-11-16T08:43:54 IST" finished-at="2024-11-16T08:43:55 IST">
+        <test-method status="PASS" signature="LogoutFromApp()[pri:0, instance:Product.CreateProductTest@27808f31]" name="LogoutFromApp" is-config="true" duration-ms="1547" started-at="2024-11-16T09:12:00 IST" finished-at="2024-11-16T09:12:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoutFromApp -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Product.CreateProductTest@27808f31]" name="CloseBrowser" is-config="true" duration-ms="689" started-at="2024-11-16T08:43:55 IST" finished-at="2024-11-16T08:43:56 IST">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Product.CreateProductTest@27808f31]" name="CloseBrowser" is-config="true" duration-ms="760" started-at="2024-11-16T09:12:02 IST" finished-at="2024-11-16T09:12:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- Product.CreateProductTest -->
       <class name="Orgnization.CreateoOganizationTest">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:Orgnization.CreateoOganizationTest@c46bcd4]" name="LaunchBrowser" is-config="true" duration-ms="8909" started-at="2024-11-16T08:43:18 IST" finished-at="2024-11-16T08:43:27 IST">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:Orgnization.CreateoOganizationTest@c46bcd4]" name="LaunchBrowser" is-config="true" duration-ms="5643" started-at="2024-11-16T09:11:25 IST" finished-at="2024-11-16T09:11:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="LoginToApp()[pri:0, instance:Orgnization.CreateoOganizationTest@c46bcd4]" name="LoginToApp" is-config="true" duration-ms="2148" started-at="2024-11-16T08:43:27 IST" finished-at="2024-11-16T08:43:29 IST">
+        <test-method status="PASS" signature="LoginToApp()[pri:0, instance:Orgnization.CreateoOganizationTest@c46bcd4]" name="LoginToApp" is-config="true" duration-ms="2338" started-at="2024-11-16T09:11:30 IST" finished-at="2024-11-16T09:11:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginToApp -->
-        <test-method status="PASS" signature="CreateOrgnizationTest()[pri:0, instance:Orgnization.CreateoOganizationTest@c46bcd4]" name="CreateOrgnizationTest" duration-ms="12058" started-at="2024-11-16T08:43:29 IST" finished-at="2024-11-16T08:43:41 IST">
+        <test-method status="PASS" signature="CreateOrgnizationTest()[pri:0, instance:Orgnization.CreateoOganizationTest@c46bcd4]" name="CreateOrgnizationTest" duration-ms="12524" started-at="2024-11-16T09:11:33 IST" finished-at="2024-11-16T09:11:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateOrgnizationTest -->
-        <test-method status="PASS" signature="LogoutFromApp()[pri:0, instance:Orgnization.CreateoOganizationTest@c46bcd4]" name="LogoutFromApp" is-config="true" duration-ms="1223" started-at="2024-11-16T08:43:41 IST" finished-at="2024-11-16T08:43:42 IST">
+        <test-method status="PASS" signature="LogoutFromApp()[pri:0, instance:Orgnization.CreateoOganizationTest@c46bcd4]" name="LogoutFromApp" is-config="true" duration-ms="1632" started-at="2024-11-16T09:11:45 IST" finished-at="2024-11-16T09:11:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoutFromApp -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Orgnization.CreateoOganizationTest@c46bcd4]" name="CloseBrowser" is-config="true" duration-ms="717" started-at="2024-11-16T08:43:42 IST" finished-at="2024-11-16T08:43:43 IST">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Orgnization.CreateoOganizationTest@c46bcd4]" name="CloseBrowser" is-config="true" duration-ms="790" started-at="2024-11-16T09:11:47 IST" finished-at="2024-11-16T09:11:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
