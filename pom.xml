@@ -30,6 +30,13 @@
     <version>7.4.0</version>
    
 </dependency>
+<dependency> 
+<groupId>org.projectlombok</groupId> 
+<artifactId>lombok</artifactId> 
+<version>1.18.24</version> 
+<scope>provided</scope> 
+</dependency>
+
 </dependencies>
 
 <profiles>
@@ -44,6 +51,24 @@
         <configuration>
           <suiteXmlFiles>
             <suiteXmlFile>testng-SmokeSuite.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>   
+</plugins>     
+</build>  
+</profile>
+
+<profile>
+<id>regression</id>
+<build>
+      <plugins>    
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.5.2</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng-regressionSuite.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>   
